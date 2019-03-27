@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.dashboard {
+  height: 100%;
+  background-image: url('./assests/img/forestCity-min.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popup-main {
+  height: 600px;
+  width: 600px;
+  background: rgba(0, 128, 128, 0.3);
+}
+.face-profile {
+  text-align: center;
+  height: 80%;
+  width: 480px !important;
+  height: 480px !important;
+  margin: 0 auto;
+}
+
+.face-list {
+  padding: 15px 0px 15px 10px;
+}
+
+.face-item {
+  width: 90px !important;
+  height: 90px !important;
+}
+
+@media (max-width: 500px) {
+  .face-profile {
+    width: 300px !important;
+    height: 300px !important;
+    margin: 0 auto;
+  }
+  .popup-main {
+    height: 400px;
+    width: 400px;
+    background: rgba(0, 128, 128, 0.3);
+  }
+}
